@@ -4,7 +4,7 @@ A data pre-processing tool for virus-host protein interactions with a high usabi
 Upload following files in order to be able to run the codes:
 "phi_data.csv","HumanData.csv", "VirusData.csv",
 "CorrHumanData.txt", "CorrVirusData.txt" 
------------------------------------------------------------------
+
 "gatherVirusData" and "gatherHumanData" methods will be working on another method named "runPools"
 Method "runpools" was implemented for gathering data from web. 
 
@@ -13,9 +13,9 @@ Due to performance upgrade issues after "runPools" and "cleaning" methods are ru
 
 Corrupted protein IDs are also stored in two txt files which are:
 "CorrHumanData.txt", "CorrVirusData.txt" and read from that txts.
--------------------------------------------------------------------
+
 Running orders of the blocks must be as follows:
-------------------------------------------------------
+
 1.Import the libraries (If not edited on Google Colab pip install the libraries)
 2.Run the variables
 3.Read the initial file (Phi_data)
