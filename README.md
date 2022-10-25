@@ -1,5 +1,5 @@
 This repository is related to the thesis project named Virex: 
-A data pre-processing & prediction tool for virus-host protein interactions.
+A data pre-processing & ML prediction tool for virus-host protein interactions.
 -------------------------------------------------
 
 You can find the project summary on Virexposter.pdf file
