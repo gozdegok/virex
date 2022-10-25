@@ -1,7 +1,7 @@
 # virex
 A data pre-processing tool for virus-host protein interactions with a high usability for ML prediction algorithms
 
-Upload files at first in order to be able to run the codes:
+Upload following files in order to be able to run the codes:
 "phi_data.csv","HumanData.csv", "VirusData.csv",
 "CorrHumanData.txt", "CorrVirusData.txt" 
 -----------------------------------------------------------------
@@ -15,7 +15,7 @@ Corrupted protein IDs are also stored in two txt files which are:
 "CorrHumanData.txt", "CorrVirusData.txt" and read from that txts.
 -------------------------------------------------------------------
 Running orders of the blocks must be as follows:
-
+------------------------------------------------------
 1.Import the libraries (If not edited on Google Colab pip install the libraries)
 2.Run the variables
 3.Read the initial file (Phi_data)
