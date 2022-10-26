@@ -4,7 +4,7 @@ This repository is related to the thesis project named Virex:
 
 You can find the project summary on Virexposter.pdf file
 
-## First upload the files below to the project folder in order to run the codes:
+## Set-up
 -------------------------------------------------------------
 
 * "phi_data.csv"
