@@ -13,14 +13,14 @@ You can find the project summary on Virexposter.pdf file
 * "CorrHumanData.txt"
 * "CorrVirusData.txt" 
 
-"gatherVirusData" and "gatherHumanData" methods will be working on another method named "runPools"
+> "gatherVirusData" and "gatherHumanData" methods will be working on another method named "runPools"
 Method "runpools" was implemented for gathering data from web. 
 
-Due to performance upgrade issues after "runPools" and "cleaning" methods are run, the extracted data is stored on two CSV files named
+> Due to performance upgrade issues after "runPools" and "cleaning" methods are run, the extracted data is stored on two CSV files named
 "HumanData.csv", "VirusData.csv" and read from that CSVs during the development process.
 
-Corrupted protein IDs are also stored in two txt files which are:
-"CorrHumanData.txt", "CorrVirusData.txt" and read from that txts.
+> The protein IDs that related sequence data was not found on web were also stored in two seperate txt files:
+"CorrHumanData.txt", "CorrVirusData.txt" and read from those txts.
 
 ## Usage
 
@@ -31,7 +31,7 @@ Corrupted protein IDs are also stored in two txt files which are:
 5. Run the most infectious pathogens block
 6. A) If you want to skip the data gathering "gatherVirusData","gatherHumanData", "runpools" and "cleaning" methods. And directly run the block starting with the title "IDs that cannot be scraped from web".
 
-  B) If you want to extract sequence data for all proteins once again you must be aware that gtahering and cleaning methods rewrites on the file which keeps us doing prediction on 100.000 rows of data. You need to run "gatherVirusData","gatherHumanData","runpools" and "cleaning" methods firstly and then run the methods that have comments on and can be seen green. You can observe that Virex can successfully gather the sequence data and clean it for the algorithms' usage.  
+6. B) If you want to extract sequence data for all proteins once again you must be aware that gtahering and cleaning methods rewrites on the file which keeps us doing prediction on 100.000 rows of data. You need to run "gatherVirusData","gatherHumanData","runpools" and "cleaning" methods firstly and then run the methods that have comments on and can be seen green. You can observe that Virex can successfully gather the sequence data and clean it for the algorithms' usage.  
 
 7. Assuming you skipped those methods continue by joining the sequences of positive matches.
 8. Run the block with cartesian product.
