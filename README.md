@@ -4,8 +4,6 @@ This repository is related to the thesis project named Virex:
 
 You can find the project summary on Virexposter.pdf file
 
-Virex PosterPDF.pdf
-
 ## Set-up
 -------------------------------------------------------------
 
